@@ -1,2 +1,4 @@
-language:  -java
-           -scala
+matrix:
+  include:
+    - language: java
+    - language: scala
